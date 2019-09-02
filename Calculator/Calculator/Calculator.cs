@@ -95,8 +95,8 @@ namespace Calculator
 
         private void Button12_Click(object sender, EventArgs e)
         {
-            op = "*" +
-                "";
+            op = "*";
+               
             pri = double.Parse(tbxScreen.Text);
             tbxScreen.Clear();
         }
